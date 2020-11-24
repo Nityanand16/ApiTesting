@@ -1,0 +1,5 @@
+setup.py
+apitesting.egg-info/PKG-INFO
+apitesting.egg-info/SOURCES.txt
+apitesting.egg-info/dependency_links.txt
+apitesting.egg-info/top_level.txt
