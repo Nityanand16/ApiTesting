@@ -2,7 +2,6 @@ import logging as logger
 import random
 import string
 
-
 def random_email_and_password(domain = None, email_prefix = None):
     if not domain:
         domain = 'gmail.com'
@@ -25,3 +24,8 @@ def random_email_and_password(domain = None, email_prefix = None):
     logger.debug(f"Randomly generated email and passwords are : {randominfo}")
 
     return randominfo
+
+def get_randomString(k):
+    random_string_length = k
+    random_string = ''.join(random.choices(string.ascii_lowercase,k=random_string_length))
+    return random_string
